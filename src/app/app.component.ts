@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { NonNullableFormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `
+    <app-banking></app-banking>
+    <router-outlet></router-outlet>
+  `,
 })
-export class AppComponent {
-  title = 'teste-unitario';
-}
+export class AppComponent {}
