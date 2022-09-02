@@ -9,7 +9,7 @@ import { ListComponent } from './shared/investiments/components/list/list.compon
 
 @NgModule({
   declarations: [AppComponent, BankingComponent, ListComponent],
-  imports: [BrowserModule, AppRoutingModule,HttpClientModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
