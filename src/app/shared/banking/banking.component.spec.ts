@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BankingComponent } from './banking.component';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { ListComponent } from '../investiments/list/list.component';
+import { ListComponent } from '../investiments/components/list/list.component';
 
 describe('BankingComponent', () => {
   let component: BankingComponent;
